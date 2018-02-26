@@ -1,0 +1,25 @@
+{
+	"updateFrequency": "10",
+	"credentials": {
+		"email": "john@smith.com",
+		"key": "abc123abc123abc123abc123"
+	},
+	"zones": [
+		{
+			"name": "test.com",
+			"records": [
+				"john.test.com",
+				"*.john.test.com",
+				"alice.test.com"
+			]
+		},
+		{
+			"name": "example.com",
+			"records": [
+				"john.example.com",
+				"*.john.example.com",
+				"alice.example.com"
+			]
+		},
+	]
+}
